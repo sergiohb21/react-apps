@@ -20,16 +20,14 @@ export const NavbarComponent = () => {
             <Link to="/">Inicio</Link>
             <Link to="/products">Productos</Link>
             <Link to="/about">Sobre nosotros</Link>
-            <Link to="/test">Test</Link>
-            <Link to="/tic-tac-toe">App tic-tac-toe</Link>
+            <Link to="/prueba-tecnica">Prueba Tecnica</Link>
           </Navbar.Container>
           <Navbar.Collapse collapseType="sidebar">
             <Navbar.Container tag="ul" className="flex flex-col gap-5">
-              <Navbar.Link linkName="Home" />
-              <Navbar.Link linkName="Projects" />
-              <Navbar.Link linkName="Blogs" />
-              <Navbar.Link linkName="News" />
-              <Navbar.Link linkName="Resources" />
+            <Link to="/">Inicio</Link>
+            <Link to="/products">Productos</Link>
+            <Link to="/about">Sobre nosotros</Link>
+            <Link to="/prueba-tecnica">Prueba Tecnica</Link>
             </Navbar.Container>
           </Navbar.Collapse>
         </Navbar.Container>
@@ -42,11 +40,13 @@ export const NavbarComponent = () => {
             <span className="ml-2 text-metal-600">Busqueda</span>
           </Button>
           <Button size="sm" type="primary">
-            Contacto
+            Contacta
           </Button>
+
           <Navbar.Toggle />
         </Navbar.Container>
       </Navbar.Container>
+
     </Navbar>
   );
 }

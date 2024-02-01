@@ -1,0 +1,16 @@
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+main > img {
+    width: 500px;
+    height: auto;
+    margin: 0 auto; 
+    display: block;
+    padding: 2rem;  
+}
+
+p {
+    padding: 2rem;
+}
