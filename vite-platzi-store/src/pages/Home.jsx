@@ -10,6 +10,7 @@ export function Home () {
                   <p>
                     “Bienvenid@ a Platzi Fake Store API”
                   </p>
+                  <a href="https://fakeapi.platzi.com/">Ver API</a>
                 </blockquote>
                 <figcaption className="mt-10">
                   <img
