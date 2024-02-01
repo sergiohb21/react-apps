@@ -1,0 +1,62 @@
+import { Carousel } from "keep-react";
+
+export const CarouselComponent = ({ product }) => {
+  return (
+    <div className="grid grid-cols-2 gap-4">
+      <Carousel
+        showControls={false}
+        indicatorsType="ring"
+        indicatorsTypeColors="slate"
+      > 
+        <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />        
+        <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />
+        <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />
+        <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />
+      </Carousel>
+      <Carousel
+        showControls={false}
+        indicatorsType="ring"
+        indicatorsTypeColors="slate"
+      >
+               <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />        
+        <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />
+        <img 
+            src={product.image}
+            alt={product.description}
+            height={384}
+            width={440} 
+        />
+      </Carousel>
+    </div>
+  );
+}
